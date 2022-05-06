@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'NokioSans-Regular';
+  src: url('NokioSans-Regular.eot');
+  src: url('NokioSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('NokioSans-Regular.svg#NokioSans-Regular') format('svg'),
+       url('NokioSans-Regular.ttf') format('truetype'),
+       url('NokioSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
