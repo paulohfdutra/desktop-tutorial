@@ -10403,6 +10403,7 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: .1em;
+    padding-top: 20px;
 }
 .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
     text-decoration: none;
@@ -10534,6 +10535,28 @@ h1, h2, h3, h4, h5,
     min-height: 750px;
     height: 90vh;
 }
+@media (max-width: 767.98px) {
+    .hero-wrap .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        opacity: 0.9;
+        background: #21243d;
+        background: transparent;
+        background: -moz-linear-gradient(45deg, #ffffff 50%, transparent 100%);
+        background: -webkit-gradient(left bottom, right top, color-stop(50%, #ffffff), color-stop(100%, transparent));
+        background: -webkit-linear-gradient(45deg, #ffffff 50%, transparent 100%);
+        background: -o-linear-gradient(45deg, #ffffff 50%, transparent 100%);
+        background: -ms-linear-gradient(45deg, #ffffff 50%, transparent 100%);
+        background: linear-gradient(140deg, #ffffff 50%, transparent 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='transparent', GradientType=1 );
+        min-height: 750px;
+        height: 90vh;
+    }
+}
 /*.hero-wrap.hero-wrap-2 {
     height: 600px !important;
     position: relative; }
@@ -10556,6 +10579,15 @@ h1, h2, h3, h4, h5,
     line-height: 1.1;
     font-weight: 400;
     position: relative;
+}
+@media (max-width: 767.98px) {
+    .slider-text h1 {
+        font-size: 45px;
+        color: #666666;
+        line-height: 1.1;
+        font-weight: 400;
+        position: relative;
+    }
 }
 .slider-text h1:after {
     position: absolute;
@@ -11164,6 +11196,16 @@ textarea.form-control {
 @media (max-width: 767.98px) {
     .ftco-section {
         padding: 6em 0;
+    }
+    .ftco-no-pt {
+        padding-top: 40px !important;
+    }
+
+    .ftco-no-pb {
+        padding-bottom: 40px !important;
+    }
+    .ftco-counter .block-18 .text{
+        justify-content: center !important;
     }
 }
 
