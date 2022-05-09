@@ -8543,7 +8543,7 @@ button.bg-dark:focus {
     margin-left: auto !important;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .m-sm-0 {
         margin: 0 !important;
     }
@@ -12656,8 +12656,15 @@ textarea.form-control {
     background-color: #6b8fc921 !important;
     border-radius: 3px;
 }
-.beneficios-text{
+.portfolio-wrap .beneficios-text{
     list-style: none;
+}
+.portfolio-wrap .port-right ul{
+    direction: rtl;
+}
+.portfolio-wrap li::marker {
+    content: "  ✅  ";
+    padding-inline-start: 1ch;
 }
 .text-consys{
     color: #243470 !important;
