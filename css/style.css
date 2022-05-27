@@ -11546,7 +11546,7 @@ textarea.form-control {
         display: none;
     }
 }
-.portfolio-wrap .text .desc.text-md-right .top:after {
+.portfolio-wrap .text .desc.text-lg-right .top:after {
     right: -150px;
     margin: 0 0 0 auto;
 }
